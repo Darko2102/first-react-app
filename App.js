@@ -1,21 +1,29 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+import MainScreen from "./screens/MainScreen";
+import Screen2 from "./screens/Screen2.js";
+import { StackScreen } from 'react-native-screens';
+
+const Stack = createStackNavigator();
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Ja sam Darko</Text>
-      <Text>Imam 14 godina</Text>
-      <StatusBar style="auto" />
-    </View>
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen name="Home" component={MainScreen}></Stack.Screen>
+      </Stack.Navigator>
+    </NavigationContainer>
   );
+  return (
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen name="Screen2" component={Screen2}></Stack.Screen>
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
+  
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#ccc',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
