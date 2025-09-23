@@ -6,7 +6,7 @@ import {Text, StyleSheet, View} from "react-native";
 const MainScreen = () => {
     return( 
         <View style={styles.container}>
-            <Text style={styles.textStyle}>This is main screen</Text>
+            <Text style={styles.textStyle}>Hello, World!</Text>
         </View>
     );
 };

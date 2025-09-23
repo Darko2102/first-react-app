@@ -16,13 +16,6 @@ export default function App() {
       </Stack.Navigator>
     </NavigationContainer>
   );
-  return (
-    <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen name="Screen2" component={Screen2}></Stack.Screen>
-      </Stack.Navigator>
-    </NavigationContainer>
-  );
   
 }
 
