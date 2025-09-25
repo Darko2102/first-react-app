@@ -8,6 +8,8 @@ import { StackScreen } from 'react-native-screens';
 import ExerciseScreen from "./screens/ExerciseScreen";
 import ChallengeScreenModule3 from "./screens/ChallengeScreenModule3";
 import Ch from "./screens/Ch";
+import ListScreen from './screens/ListScreen';
+import ListScreen2 from './screens/ListScreen2';
 
 
 const Stack = createStackNavigator();
@@ -16,11 +18,14 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Home" component={Ch}></Stack.Screen>
+        <Stack.Screen name="Home" component={ListScreen2}></Stack.Screen>
       </Stack.Navigator>
     </NavigationContainer>
   );
   
 }
+
+
+
 
 

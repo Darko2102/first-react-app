@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
         fontSize: 25,
         textAlign: 'center',
         marginBottom: 10,
-    }
+    },
     authorStyle: {
         fontSize: 20,
         textAlign: 'left',
