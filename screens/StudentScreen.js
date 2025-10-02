@@ -93,7 +93,6 @@ const style=StyleSheet.create({
     container: {
         flex: 1,
         fontWeight: "bold",
-        fontWeight: 700,
         alignItems: "center",
         justifyContent: "center",
         fontSize: 25,
