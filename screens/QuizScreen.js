@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text, StyleSheet, Button, TouchableOpacity } from "react-native";
 
-const QuizScreen = () => {
+const QuizScreen = (props) => {
     return(
         <View>
             <Text style={styles.text2}>Kviz</Text>

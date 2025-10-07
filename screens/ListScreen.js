@@ -7,7 +7,7 @@ const students=[
     {name:"Isaac", surname:"Bonga", age:"25"},
 ];
 
-const ListScreen = () => {
+const ListScreen = (props) => {
     return (
         <View>
             <Text>ListScreen</Text>
@@ -26,7 +26,7 @@ const ListScreen = () => {
             />
 
             
-
+            <Button title="Go back" onPress={() => props.navigation.goBack()}>/</Button>
         </View>
     
     )
