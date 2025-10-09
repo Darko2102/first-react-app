@@ -16,7 +16,7 @@ const MenuScreen = (props) => {
         onPress={() => props.navigation.navigate("Quiz")}
       />
 
-      {/* 👇 Novo dugme za HomeScreen */}
+
       <Button
         title="Go to Home Screen"
         onPress={() => props.navigation.navigate("Home")}
