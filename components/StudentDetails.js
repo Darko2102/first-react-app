@@ -1,5 +1,5 @@
 import React from "react";
-import{Text, View, StyleSheet, Image} from "react-native";
+import{Text, View, StyleSheet, Image, TouchableOpacity} from "react-native";
 
 const StudentDetails = (props) => {
 
@@ -13,6 +13,15 @@ const StudentDetails = (props) => {
                 <View style={styles.infoWraper}>
                     <Text style={styles.text}>{props.name}</Text>
                     <Text>{props.description}</Text>
+                </View>
+                <View>
+                    <TouchableOpacity
+                    onPress={() => console.log("Tyrique Jones clicked: ")}
+
+                    ><Text>{props.name}</Text>
+                     <Text>{props.image}</Text>
+                     <Text>{props.description}</Text>
+                    </TouchableOpacity>
                 </View>
             </View>
         </View>

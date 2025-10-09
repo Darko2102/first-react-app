@@ -1,5 +1,5 @@
 import React from "react";
-import{Text, View, StyleSheet} from "react-native";
+import{Text, View, StyleSheet, TouchableOpacity} from "react-native";
 import StudentDetails from "../components/StudentDetails";
 
 const StudentScreen2 = () => {
@@ -10,6 +10,8 @@ const StudentScreen2 = () => {
             <StudentDetails    name="Mikka" image={require('../assets/muurinen.jpg')} description="Mikkaaa"/>
             <StudentDetails    name="Vanja" image={require('../assets/kapiten.jpg')} description="Vanja Kapiteen"/>
             <StudentDetails    name="Carlic" image={require('../assets/carlic.jpg')} description="Carlic"/>
+            <StudentDetails name="Tyrique" iamge={require('../assets/tyrique.jpg')}> </StudentDetails>
+            
         </View>
     );
 }
