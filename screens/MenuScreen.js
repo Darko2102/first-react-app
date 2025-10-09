@@ -1,37 +1,40 @@
 import React from "react";
-import{View, StyleSheet, Text, Button, TouchableOpacity} from "react-native";
+import { View, StyleSheet, Text, Button } from "react-native";
 
 const MenuScreen = (props) => {
-    console.log(props);
-    return(
-        <View>
-            <Text style={styles.text}>Welcome to Menu Screen</Text>
-            <Button
-                title="Go to List Screen"
-                onPress = {() => props.navigation.navigate("List")}
-            />
-            <TouchableOpacity
-                style={styles.container}
-                title="Go to Quiz Screen"
-                onPress = {() => props.navigation.navigate("Quiz")}
-            ></TouchableOpacity>
-        </View>
-    );
+  return (
+    <View style={styles.container}>
+      <Text style={styles.text}>Welcome to Menu Screen</Text>
+      
+      <Button
+        title="Go to List Screen"
+        onPress={() => props.navigation.navigate("List")}
+      />
+
+      <Button
+        title="Go to Quiz Screen"
+        onPress={() => props.navigation.navigate("Quiz")}
+      />
+
+      {/* 👇 Novo dugme za HomeScreen */}
+      <Button
+        title="Go to Home Screen"
+        onPress={() => props.navigation.navigate("Home")}
+      />
+    </View>
+  );
 };
 
 const styles = StyleSheet.create({
-    text: {
-        textAlign: "center",
-        fonstSize: 20,
-        marginVertical: 20,
-    },
-    container: {
-        textAlign: "center",
-        fonstSize: 20,
-        marginVertical: 20,
-        padding: 15,
-        backgroundColor: "blue",
-    }
+  container: {
+    flex: 1,
+    justifyContent: "center",
+  },
+  text: {
+    textAlign: "center",
+    fontSize: 20,
+    marginVertical: 20,
+  },
 });
 
 export default MenuScreen;
