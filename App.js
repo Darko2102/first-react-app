@@ -7,6 +7,7 @@ import ListScreen from './screens/ListScreen';
 import QuizScreen from './screens/QuizScreen';
 import HomeScreen from './screens/HomeScreen';
 import ProfileScreen from './screens/ProfileScreen'; 
+import StudentScreen2 from './screens/StudentScreen2'; 
 
 const Stack = createStackNavigator();
 
@@ -19,6 +20,7 @@ export default function App() {
         <Stack.Screen name="Quiz" component={QuizScreen} />
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="Profile" component={ProfileScreen} />
+         <Stack.Screen name="Student" component={StudentScreen2} />
       </Stack.Navigator>
     </NavigationContainer>
   );
