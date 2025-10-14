@@ -8,20 +8,32 @@ import QuizScreen from './screens/QuizScreen';
 import HomeScreen from './screens/HomeScreen';
 import ProfileScreen from './screens/ProfileScreen'; 
 import StudentScreen2 from './screens/StudentScreen2'; 
+import ProfileScreen2 from './screens/ProfileScreen2'; 
+
 
 const Stack = createStackNavigator();
 
+// export default function App() {
+//   return (
+//     <NavigationContainer>
+//       <Stack.Navigator initialRouteName="Menu">
+//         <Stack.Screen name="Menu" component={MenuScreen} />
+//         <Stack.Screen name="List" component={ListScreen} />
+//         <Stack.Screen name="Quiz" component={QuizScreen} />
+//         <Stack.Screen name="Home" component={HomeScreen} />
+//         <Stack.Screen name="Profile" component={ProfileScreen} />
+//          <Stack.Screen name="Student" component={StudentScreen2} />
+//       </Stack.Navigator>
+//     </NavigationContainer>
+//   );
+// }
+
 export default function App() {
-  return (
+  return(
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Menu">
-        <Stack.Screen name="Menu" component={MenuScreen} />
-        <Stack.Screen name="List" component={ListScreen} />
-        <Stack.Screen name="Quiz" component={QuizScreen} />
-        <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen name="Profile" component={ProfileScreen} />
-         <Stack.Screen name="Student" component={StudentScreen2} />
+      <Stack.Navigator initialRouteName="Profile">
+        <Stack.Screen name="Profile" component={ProfileScreen2} />
       </Stack.Navigator>
     </NavigationContainer>
-  );
+  )
 }
