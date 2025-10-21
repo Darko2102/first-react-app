@@ -37,6 +37,21 @@ const MenuScreen = (props) => {
       title="Go to BoxscreenChallnge"
       onPress={() => props.navigation.navigate("BoxScreen")}
       />
+      <Button
+      style={styles.btn}
+      title="Go to Posts"
+      onPress={() => props.navigation.navigate("Posts")}
+      />
+      <Button
+      style={styles.btn}
+      title="Go to Users"
+      onPress={() => props.navigation.navigate("Users")}
+      />
+      <Button
+      style={styles.btn}
+      title="Go to UserPost Screen"
+      onPress={() => props.navigation.navigate("UserPosts")}
+      />
     </View>
   );
 };
@@ -52,7 +67,7 @@ const styles = StyleSheet.create({
     marginVertical: 20,
   },
   btn: {
-    marginVertical: 20,
+    marginBottom: 20,
   }
 });
 
