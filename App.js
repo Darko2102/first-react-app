@@ -14,6 +14,7 @@ import BoxScreenChallenge from './screens/BoxScreenChallenge';
 import PostsScreen from './screens/PostsScreen'; 
 import UsersScreen from './screens/UsersScreen'; 
 import UserPostsScreen from './screens/UserPostsScreen'; 
+import Ch13 from './screens/Ch13';
 
 
 
@@ -34,6 +35,7 @@ export default function App() {
         <Stack.Screen name="Posts" component={PostsScreen} />
         <Stack.Screen name="Users" component={UsersScreen} />
         <Stack.Screen name="UserPost" component={UserPostsScreen} />
+        <Stack.Screen name="Ch13" component={Ch13} />
       </Stack.Navigator>
     </NavigationContainer>
   );
