@@ -17,6 +17,7 @@ import UserPostsScreen from './screens/UserPostsScreen';
 import Ch13 from './screens/Ch13';
 import CountriesScreen from './screens/CountriesScreen';
 import CountryDetailsScreen from './screens/CountryDetailsScreen';
+import ProductScreen from './screens/ProductScreen';
 
 
 
@@ -41,6 +42,7 @@ export default function App() {
         <Stack.Screen name="Ch13" component={Ch13} />
         <Stack.Screen name="Countries" component={CountriesScreen} />
         <Stack.Screen name="Country Details" component={CountryDetailsScreen} />
+        <Stack.Screen name="Products" component={ProductScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );

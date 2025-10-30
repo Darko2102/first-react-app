@@ -1,0 +1,74 @@
+[
+    {
+        "id":1,
+        "name": "Nike Kobe Shoes - Dora Sullivan",
+        "category": "basketball shoes",
+        "price": "$399",
+        "stock": "Yes",
+        "image": "https://sneakerbardetroit.com/wp-content/uploads/2023/12/Kobe-8-Protro-Venice-Beach-1068x919.jpg",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+    },
+    {
+        "id":2,
+        "name": "iPhone 17 Pro Max",
+        "category": "Phones",
+        "price": "$1500",
+        "stock": "Yes",
+        "image": "https://phonecorridor.com/wp-content/uploads/iphone-17-pro-max.webp",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+    },
+    {
+        "id":3,
+        "name": "Mercedes E class 2026",
+        "category": "car",
+        "price": "$100000",
+        "stock": "No",
+        "image": "https://acko-cms.ackoassets.com/E_Class_Germany_Static_5_b836ab9c57.jpg",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+    },
+    {
+        "id":4,
+        "name": "iPad",
+        "category": "Tablet",
+        "price": "$1000",
+        "stock": "Yes",
+        "image": "https://www.apple.com/newsroom/images/2025/03/apple-introduces-ipad-air-with-powerful-m3-chip-and-new-magic-keyboard/article/Apple-iPad-Air-hero-250304_big.jpg.large_2x.jpg",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+    },
+    {
+        "id":5,
+        "name": "Rampage",
+        "category": "keyboard",
+        "price": "$29",
+        "stock": "Yes",
+        "image": "https://www.segment.com.tr/images/productimages/PLOWER_K60_S_00.jpg",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+    },
+    {
+        "id":6,
+        "name": "Red Dragon",
+        "category": "mouse",
+        "price": "$9",
+        "stock": "Yes",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61QXVSF6bLL._AC_SL1500_.jpg",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+    },
+    {
+        "id":7,
+        "name": "Yamaha",
+        "category": "motorcycle",
+        "price": "$399",
+        "stock": "Yes",
+        "image": "https://www.slashgear.com/img/gallery/yamaha-motorcycles-through-the-years-a-look-at-the-brands-evolution/l-intro-1703033698.jpg",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+    },
+    {
+        "id":8,
+        "name": "Lamborghini Aventador",
+        "category": "Lamborghini",
+        "price": "$500000",
+        "stock": "Yes",
+        "image": "https://wallpaperaccess.com/full/20008.jpg",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+    }
+]
