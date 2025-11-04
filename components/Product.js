@@ -7,7 +7,7 @@ const Product = (props) => {
   
     <View style={styles.cardContainer}> 
         
-            <Image source={{uri:"${props.img}"}} style={styles.img}></Image>
+            <Image source={{uri:`${props.img}`}} style={styles.img}></Image>
         
         <View style={styles.cardDesc}>
             <Text>{props.name}</Text>

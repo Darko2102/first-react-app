@@ -1,7 +1,7 @@
 import React from "react";
-import{View, Text, FlatList, StyleSheet, ScrollView} from "react-native";
+import{View, Text, FlatList, StyleSheet} from "react-native";
 import data from '../data/products.json';
-import Product from "../components/Products";
+import Product from "../components/Product";
 
 class ProductScreen extends React.Component{
 
