@@ -1,24 +1,52 @@
 import React from "react";
-import {Text, View, StyleSheet} from "react-native";
+import {Text, View, StyleSheet, Image} from "react-native";
 
 const Product = (props) => {
-    <View>
-        <View>
-            <Image source={props.image}></Image>
-        </View>
-        <View>
+  return(
+
+  
+    <View style={styles.cardContainer}> 
+        
+            <Image source={{uri:"${props.img}"}} style={styles.img}></Image>
+        
+        <View style={styles.cardDesc}>
             <Text>{props.name}</Text>
-            <Text>{props.category}</Text>
             <Text>{props.description}</Text>
-            <Text>{props.stock}</Text>
-            <Text>{props.price}</Text>
+            <View style={styles.footer}>
+              <Text>Stock: {props.stock}</Text>
+              <Text>Price: {props.price}</Text>
+            </View>
+            
         </View>
     </View>
+  )
 }
 
 
 const styles = StyleSheet.create({
-    
+    cardContainer:{
+      backgroundColor: "white",
+      marginBottom:10,
+      borderRadius: 10,
+    },
+    img: {
+      width: 250,
+      height: 180,
+      borderTopLeftRadius: 10,
+      borderTopRightRadius: 10,
+    },
+    cardDesc: {
+      paddingTop: 10,
+      paddingHorizontal: 20,
+      paddingBottom: 25,
+    },
+    footer:{
+      display: "flex",
+      flexDirection: "row",
+      justifyContent: "space-between",
+    },
 })
 
 export default Product;
+
+
