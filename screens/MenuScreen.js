@@ -70,7 +70,7 @@ const MenuScreen = (props) => {
       <Button
       style={styles.btn}
       title="Products Screen"
-      onPress={() => props.navigation.navigate("Products Screen")}
+      onPress={() => props.navigation.navigate("Products")}
       />
     </View>
   );

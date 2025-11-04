@@ -30,7 +30,7 @@ class ProductScreen extends React.Component{
                         renderItem={({item}) => (
                             <View>
                                 <Product
-                                    name={item.name} category={item.category} price={item.price} stock={item.stock} image={item.image} description={item.description}
+                                    name={item.name} category={item.category} price={item.price} stock={item.stock} img={item.image} description={item.description}
                                 />
                             </View>
                         )}

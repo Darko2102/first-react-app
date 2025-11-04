@@ -44,7 +44,7 @@ class CountriesScreen extends React.Component{
     }
 }
 
-const styles = StyleSheet({
+const styles = StyleSheet.create({
     screenTitle:{
         fontWeight: 'bold',
         fontSize: 20,

@@ -1,10 +1,12 @@
 import React from "react";
-import {Text, View, StyleSheet, Image} from "react-native";
+import {Text, View, StyleSheet, Image, TouchableOpacity} from "react-native";
 
 const Product = (props) => {
   return(
 
-  
+  <TouchableOpacity
+    onPress={() => console.log("TouchableOpacity clicked: ")}
+  >
     <View style={styles.cardContainer}> 
         
             <Image source={{uri:`${props.img}`}} style={styles.img}></Image>
@@ -19,6 +21,7 @@ const Product = (props) => {
             
         </View>
     </View>
+  </TouchableOpacity>
   )
 }
 
